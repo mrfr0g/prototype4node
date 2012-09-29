@@ -1,15 +1,10 @@
-{ "name" : "prototype"
-, "version" : "v0.0.5"
-, "description" : "Implementation of Prototypejs in Node.js"
-, "main" : "./lib/index"
-, "author" : 
-  { "name" : "Stephen 'Rixius' Middleton"
-  , "email" : "Rixius@gmail.com"
-  , "url" : "https://github.com/rixius"
-  }
-, "repository" : 
-  { "type" : "git"
-  , "url" : "git://github.com/Rixius/prototype.node.js"
-  }
-
+{
+	"name": "prototype4node",
+	"version": "v0.0.1",
+	"description": "",
+	"main": "./lib/index",
+	"author": {
+		"name": "Michael Camden",
+		"email": "camden.michael@gmail.com"
+	}
 }

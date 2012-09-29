@@ -21,6 +21,18 @@ Progress
 
 Partially converted parts of existing library. I have also written some unit tests using the Mocha testing platform. The tests are not as comprehensive as the unit tests prototype provides, but the goal isn't to rewrite all of prototypes tests, just for major features. I have also identified and resolved an issue that was preventing me from extending the Hash object in another project.
 
+Testing
+-------
+
+### Browser
+
+Open up the file tests/index.html to run all tests. All libraries (mocha, prototype, assert) are contained within the tests/lib directory. 
+
+### Server
+
+1. Download and install the mocha testing framework. At the time of writing this is done via npm, `npm install -g mocha`
+2. Run mocha, passing the tests directory, `mocha ./tests -R spec`
+
 Credits
 -------
 

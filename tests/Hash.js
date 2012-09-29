@@ -51,12 +51,16 @@ describe('Hash', function () {
 			var h = $H({foo: 'bar'});
 			assert(h.inspect() == "#<Hash:{'foo': 'bar'}>")
 		})
-		it('#unset', function () {
-			var h = $H({foo: 'bar'});
-			h.unset('foo');
-			assert(h.get('foo') == undefined)
-		})
 		it('#each', function () {
+			var h = $H({version: 1.6, author: 'The Core Team'});
+			var result = '';
+			var expectedResult = 'version=1.6,author=The Core Team,';
+			h.each(function(pair) {
+				result += pair.key + '=' + pair.value + ',';
+			});
+			assert(result == expectedResult)
+		})
+		it('#unset', function () {
 			var h = new Hash({a: 'apple', b: 'banana', c: 'coconut'});
 
 			assert(h.keys().toString() == 'a,b,c') // -> ["a", "b", "c"]

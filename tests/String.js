@@ -5,7 +5,6 @@ var assert = this['assert'] ? this['assert'] : require('assert');
 
 describe('String', function () {
 	describe('String (instance)', function () {
-		it('#', function () {})
 		it('#blank', function () {
 			assert(''.blank()) //-> true
 			assert('  '.blank()) //-> true

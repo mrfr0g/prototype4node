@@ -23,7 +23,6 @@ describe('String', function () {
 
 			var fruits = [];
 			'apple, pear & orange'.scan(/\w+/, function(match) { fruits.push(match[0]) });
-			console.log(fruits)
 			assert(fruits.inspect() == "['apple', 'pear', 'orange']") // -> ['apple', 'pear', 'orange']
 
 			// Note, skipped DOM test since it wont work on the server without additional libraries like jsDOM

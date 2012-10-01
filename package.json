@@ -1,12 +1,7 @@
 {
 	"name": "prototype4node",
-<<<<<<< HEAD
 	"version": "v0.0.2",
-	"description": "",
-=======
-	"version": "v0.0.1",
 	"description": "prototype4node is an attempt to bring the power and simplicity of the prototypejs library, to NodeJS.",
->>>>>>> tmp
 	"main": "./lib/index",
 	"author": {
 		"name": "Michael Camden",

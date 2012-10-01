@@ -9,6 +9,7 @@ My intention is to provide equal results with the browser version of Prototypejs
 Installation
 ------------
 
+<<<<<<< HEAD
 prototype4node is a npm package, installing is as simple as listing it as a dependency in your package.json file. You should also be able to isntall it directly from npm via,
 
 	npm install prototype4node
@@ -16,6 +17,9 @@ prototype4node is a npm package, installing is as simple as listing it as a depe
 or globally...
 
 	npm install -g prototype4node
+=======
+
+>>>>>>> tmp
 
 Tasks
 -----

@@ -20,9 +20,9 @@ or globally...
 Tasks
 -----
 
-* Convert existing library to better manage scope, and bring more in line with CommonJS practices.
-* Investigate ways to improve performance
-* Create unit tests with the goal of each test passing in both the browser and nodejs. Test coverage should match major features, using examples pulled from the API when possible.
+* <strike>Convert existing library to better manage scope, and bring more in line with CommonJS practices.</strike>
+* Investigate ways to improve performance (<em>still want to find more ways to improve performance, but reducing the number of files has had its benefits</em>)
+* <strike>Create unit tests with the goal of each test passing in both the browser and nodejs. Test coverage should match major features, using examples pulled from the API when possible.</strike>
 * Create npm package
 * ???
 

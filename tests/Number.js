@@ -1,5 +1,4 @@
 var assert = this['assert'] ? this['assert'] : require('assert');
-var Prototype = this['Prototype'] ? this['Prototype'] : require('../lib/Prototype');
 !Number.prototype.abs ? require('../lib/Number') : 0;
 
 describe('Number', function() {
